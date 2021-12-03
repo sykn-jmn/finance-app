@@ -1,23 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+
+const startingHistory = [
+  {
+    category:"food",
+    amount:-100,
+    date: new Date("January 1, 2021 01:01:01")
+  },
+  {
+    category:"house",
+    amount:-200,
+    date: new Date("January 2, 2021 01:01:01")
+  },
+  {
+    category:"food",
+    amount:-100,
+    date: new Date("January 3, 2021 01:01:01")
+  },
+  {
+    category:"food",
+    amount:-100,
+    date: new Date("January 4, 2021 01:01:01")
+  },
+  {
+    category:"job",
+    amount:500,
+    date: new Date("January 5, 2021 01:01:01")
+  }
+]
+
 
 function App() {
+  
+  const [history, setHistory] = useState(startingHistory);
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {history.map((tx,idx)=>
+      {
+        return (
+          <div className="transaction" key={idx}>
+            <h3>{tx.amount}</h3>
+            <p>{tx.category}</p>
+            <p>{tx.date.toLocaleString()}</p>
+          </div>
+        )
+      })}
     </div>
   );
 }
