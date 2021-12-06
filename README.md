@@ -7,7 +7,9 @@ A Finance-tracking application that allows you to see how many days you can surv
 * The distribution can be by percentage or by fixed amount.
 
 ## Database
-![FinanceDatabase](https://user-images.githubusercontent.com/56058545/144848160-22be8532-70c4-4e41-af39-8eac49ea4c08.png)
+![FinanceDatabase](https://user-images.githubusercontent.com/56058545/144853674-99fc9072-5b25-4370-8fe0-656c1846cbb9.png)
+
 
 ## Backend
-![FinanceBackend](https://user-images.githubusercontent.com/56058545/144849632-74838fc5-d3f4-4d04-8a10-9705fe9217d9.png)
+![FinanceBackend](https://user-images.githubusercontent.com/56058545/144853687-f9ba5bde-7da1-46ae-8f8d-4fb288463bd5.png)
+
