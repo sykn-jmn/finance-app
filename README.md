@@ -10,4 +10,4 @@ A Finance-tracking application that allows you to see how many days you can surv
 ![FinanceDatabase](https://user-images.githubusercontent.com/56058545/144848160-22be8532-70c4-4e41-af39-8eac49ea4c08.png)
 
 ## Backend
-![FinanceBackend](https://user-images.githubusercontent.com/56058545/144848165-5d8384f6-c1b3-45e0-95bd-4d4c5f776d54.png)
+![FinanceBackend](https://user-images.githubusercontent.com/56058545/144849632-74838fc5-d3f4-4d04-8a10-9705fe9217d9.png)
