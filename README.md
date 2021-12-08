@@ -1,6 +1,7 @@
 ## PLAN
 # General Description of the Application:
-A Finance-tracking application that allows you to see how many days you can survive given your current transactions.
+A Finance-tracking application that allows you to see how much time you can survive given your current passive income and expenses.
+Provides a sharable metric of how wealthy you are.
 ## Features:
 * Shows how much time you can survive based on your expenses, assets, and current savings. In addition to this, the app also takes into account inflation.
 * Automatically distributes your input positive money according to what you set.
