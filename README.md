@@ -1,3 +1,5 @@
+## NO CODE YET. ONLY PLAN SO FAR
+
 ## PLAN
 # General Description of the Application:
 A Finance-tracking application that allows you to see how much time you can survive given your current passive income and expenses.
